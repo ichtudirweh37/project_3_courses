@@ -1,0 +1,51 @@
+@import '../common/vars';
+
+.about {
+    padding: 90px 0 40px;
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        margin: 0 -14px;
+    }
+
+    &_col {
+        width: 50%;
+        padding: 0 14px;
+    }
+
+    &_caption {
+        margin-bottom: 32px;
+    }
+
+    &_descr {
+        color: $secondary-color;
+        margin-bottom: 24px;
+    }
+
+    &_title {
+        margin-bottom: 16px;
+    }
+
+    &_item {
+        color: $secondary-color;
+        padding-left: 12px;
+        margin-bottom: 16px;
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: $primary-color;
+            left: 0;
+            top: 8px;
+        }
+    }
+
+    &_img {
+        width: 100%;
+    }
+}

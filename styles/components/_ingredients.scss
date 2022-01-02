@@ -1,0 +1,50 @@
+@import '../common/vars';
+
+.ingredients {
+    padding: 40px 0 100px;
+    
+
+    &_wrap {
+        display: flex;
+        padding: 32px 80px;
+        background-color: $queen-pink;
+    }
+
+    &_col {
+        width: 50%;
+        padding: 0 14px;
+    } 
+
+    &_title {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 2;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 32px;
+    }
+
+    &_list {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 450px;
+    }
+
+    &_item {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 26px;
+    }
+
+    &_icon {
+        width: 20px;
+        color: $primary-color;
+        margin-right: 16px;
+    }
+
+    &_text {
+        color: $secondary-color;
+    }
+    
+}
